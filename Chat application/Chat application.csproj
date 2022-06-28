@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Chat_application</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Icons\" />
+    <Folder Include="Themes\" />
+    <Folder Include="MVMM\Model\" />
+    <Folder Include="MVMM\view\" />
+    <Folder Include="Core\" />
+  </ItemGroup>
+
+</Project>
