@@ -49,7 +49,8 @@
                             Background="Transparent"
                             BorderThickness="0"
                             Foreground="Gray"
-                            FontWeight="Bold"/>
+                            FontWeight="Bold"
+                            Click="Maximize_Click"/>
 
                     <Button Width="20" Height="20"
                             Content="Χ"
