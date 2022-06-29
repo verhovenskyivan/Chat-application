@@ -24,7 +24,7 @@ namespace Chat_application
         {
             InitializeComponent();
         }
-
+        //Метод отвечающий за перетаскивание приложения
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if(e.LeftButton == MouseButtonState.Pressed)
@@ -33,11 +33,15 @@ namespace Chat_application
             }
 
         }
+        //Метод отвечающий за закрытие приложения
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
-
+        /*Секция ниже отвечает за манипуляции с размерами приложения
+        * Minimize_Click - за сворачивание приложения в фоновый режим
+        * Maximize_Click - за развертывание приложения на полный экран
+        */
         private void Minimize_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.MainWindow.WindowState = WindowState.Minimized;

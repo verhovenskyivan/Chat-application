@@ -20,3 +20,5 @@ C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\ne
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Chat application.genruntimeconfig.cache
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\ref\Chat application.dll
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Themes\ContactList.baml
+C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\App.baml
