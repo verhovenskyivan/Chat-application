@@ -22,3 +22,6 @@ C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\ne
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Themes\ContactList.baml
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\App.baml
+C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Chat application_Content.g.cs
+C:\Users\verhovensky\source\repos\Chat application\Chat application\bin\Debug\net6.0-windows\MVMM\Model\steve_jobs.jpg
+C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Themes\Chatitem.baml

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\verhovensky\source\repos\Chat application\Chat application\App.xaml
-2869174345
-
+3818848512
+2-1585862600
 6-342691792
 1942030480316
-MainWindow.xaml;Themes\ContactList.xaml;
+MainWindow.xaml;Themes\Chatitem.xaml;Themes\ContactList.xaml;
 
 False
 

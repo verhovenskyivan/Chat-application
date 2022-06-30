@@ -9,9 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Icons\" />
-    <Folder Include="MVMM\view\" />
+    <None Remove="MVMM\Model\steve_jobs.jpg" />
+    <None Remove="MVMM\viewmodel\steve_jobs.jpg" />
+    <None Remove="MVMM\viewmodel\tim_cook.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Core\" />
+    <Folder Include="MVMM\view\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MVMM\Model\steve_jobs.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MVMM\Model\tim_cook.jpg" />
   </ItemGroup>
 
 </Project>

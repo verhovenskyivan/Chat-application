@@ -10,6 +10,9 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Chatitem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\ContactList.xaml">
       <SubType>Designer</SubType>
     </Page>
