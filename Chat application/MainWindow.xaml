@@ -109,21 +109,27 @@
                 <RowDefinition Height="70"/>
 
             </Grid.RowDefinitions>
+
             <Border BorderBrush="#2F3136"
                     BorderThickness="0,0,0,2">
+
                 <Grid HorizontalAlignment="Stretch"
                       Margin="8">
+
                     <Label Content="@Username"
                            Foreground="White"
                            FontWeight="Bold"
                            Margin="5,0,5,0"
                            VerticalAlignment="Center"/>
+
                     <StackPanel Orientation="Horizontal"
                                 HorizontalAlignment="Right">
+
                         <Image Width="20" Height="20"
                                RenderOptions.BitmapScalingMode="Fant"
                                Margin="5,0,5,0"
                                Source="./icons/call.png"/>
+
                         <Image Width="20" Height="20"
                                RenderOptions.BitmapScalingMode="Fant"
                                Margin="5,0,5,0"
@@ -131,9 +137,10 @@
 
                     </StackPanel>
 
-
                 </Grid>
+
             </Border>
+
             <ListView ItemsSource="{Binding SelectedContact.Messages}"
                       Background="Transparent"
                       BorderThickness="0"
@@ -141,6 +148,46 @@
                       Margin="8,0,0,0"
                       Grid.Row="1"/>
 
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+
+                    <ColumnDefinition Width ="90"/>
+
+                </Grid.ColumnDefinitions>
+
+                <TextBox Grid.Row="1"
+                         Height="50"
+                         Text="Message @Username"
+                         Style="{StaticResource MessageBox}"
+                         Grid.ColumnSpan="2"/>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center" 
+                            Width="90"
+                            Grid.Column="1">
+
+                    <Image Source="./icons/clip.png"
+                           Width="30"
+                           Height="30"
+                           RenderOptions.BitmapScalingMode="Fant"
+                           Margin="5,5,5,0"/>
+
+                    <Image Source="./icons/sent.png"
+                           Width="30"
+                           Height="30"
+                           RenderOptions.BitmapScalingMode="Fant"
+                           Margin="5,5,5,0"/>
+
+
+
+
+                </StackPanel>
+            </Grid>
+
         </Grid>
+
     </Grid>
+
 </Window>
