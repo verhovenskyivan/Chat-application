@@ -9,13 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\call.png" />
+    <None Remove="Icons\clip.png" />
+    <None Remove="Icons\sent.png" />
+    <None Remove="Icons\video_camera.png" />
     <None Remove="MVMM\Model\steve_jobs.jpg" />
     <None Remove="MVMM\viewmodel\steve_jobs.jpg" />
     <None Remove="MVMM\viewmodel\tim_cook.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Core\" />
     <Folder Include="MVMM\view\" />
   </ItemGroup>
 
@@ -24,6 +27,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="MVMM\Model\tim_cook.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\call.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\clip.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\sent.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\video_camera.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\verhovensky\source\repos\Chat application\Chat application\App.xaml
-4657076969
+5441878104
 2-1585862600
-81560267661
-1942030480316
-MainWindow.xaml;Themes\Chatitem.xaml;Themes\ContactList.xaml;Themes\MessageBox.xaml;
+102102436453
+194-97651837
+MainWindow.xaml;Themes\Chatitem.xaml;Themes\ContactList.xaml;Themes\MessageBox.xaml;Themes\ScrollBar.xaml;
 
-False
+True
 

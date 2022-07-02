@@ -26,3 +26,4 @@ C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\ne
 C:\Users\verhovensky\source\repos\Chat application\Chat application\bin\Debug\net6.0-windows\MVMM\Model\steve_jobs.jpg
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Themes\Chatitem.baml
 C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Themes\MessageBox.baml
+C:\Users\verhovensky\source\repos\Chat application\Chat application\obj\Debug\net6.0-windows\Themes\ScrollBar.baml
