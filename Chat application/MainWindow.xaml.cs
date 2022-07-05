@@ -57,6 +57,23 @@ namespace Chat_application
                 Application.Current.MainWindow.WindowState = WindowState.Normal;
             }
         }
+   
 
+        private void UploadButton_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void UploadButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.OpenFileDialog openFileDialog = new Microsoft.Win32.OpenFileDialog();
+            bool? response = openFileDialog.ShowDialog();
+            if(response == true)
+            {
+                string filepath = openFileDialog.FileName;
+
+                MessageBox.Show(filepath);
+            }
+        }
     }
 }

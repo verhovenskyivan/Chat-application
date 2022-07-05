@@ -54,9 +54,9 @@ namespace Chat_application.MVMM.viewmodel
 
             Messages.Add(new MessageModel
             {
-                Username ="Alison",
+                Username ="Tim Cook",
                 UsernameColor = "#409aff",
-                ImageSource = "steve_jobs.jpg",
+                ImageSource = "./icons/tim_cook.png",
                 Message = "application test",
                 Time = DateTime.Now,
                 isNativeOrigin = false,
@@ -64,29 +64,53 @@ namespace Chat_application.MVMM.viewmodel
 
             });
          
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Messages.Add(new MessageModel
                 {
-                    Username = "Steve_Jobs",
+                    Username = "Tim Cook",
                     UsernameColor = "#409aff",
-                    ImageSource = "steve_jobs.jpg",
+                    ImageSource = "./icons/tim_cook.png",
                     Message = "application test",
                     Time = DateTime.Now,
                     isNativeOrigin = false,
                     FirstMessage = false,
 
                 });
+
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                Messages.Add(new MessageModel
+                {
+                    Username = "Steve Jobs",
+                    UsernameColor = "#409aff",
+                    ImageSource = "./icons/steve_jobs.png",
+                    Message = "application test",
+                    Time = DateTime.Now,
+                    isNativeOrigin = true,
+
+                });
+
             }
 
-           
+            Messages.Add(new MessageModel
+            {
+                Username = "Steve Jobs",
+                UsernameColor = "#409aff",
+                ImageSource = "./icons/steve_jobs.png",
+                Message = "Last test",
+                Time = DateTime.Now,
+                isNativeOrigin = true,
+
+            });
 
             for (int i=0;i<5;i++)
-            {
+                {
                 Contacts.Add(new ContactModel
                 {
                     Username = $"Steve_jobs{i}",
-                    ImageSource = "steve_jobs.jpg",
+                    ImageSource = "./icons/steve_jobs.png",
                     Messages = Messages
                 });
                     

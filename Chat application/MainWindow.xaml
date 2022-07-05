@@ -170,17 +170,25 @@
                             Width="90"
                             Grid.Column="1">
 
-                    <Image Source="./icons/clip.png"
+                    <Button
+                           Background="Transparent"
+                           Name="UploadButton"
                            Width="30"
                            Height="30"
                            RenderOptions.BitmapScalingMode="Fant"
-                           Margin="5,5,5,0"/>
+                           Margin="5,5,5,0" Click="UploadButton_Click_1">
+                        <Image Source="./icons/clip.png">
+                          
+                        </Image>
+                    </Button>
 
                     <Image Source="./icons/sent.png"
                            Width="30"
                            Height="30"
                            RenderOptions.BitmapScalingMode="Fant"
-                           Margin="5,5,5,0"/>
+                           Margin="5,5,5,0">
+                      
+                    </Image>
 
 
 

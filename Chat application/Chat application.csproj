@@ -12,6 +12,7 @@
     <None Remove="Icons\call.png" />
     <None Remove="Icons\clip.png" />
     <None Remove="Icons\sent.png" />
+    <None Remove="Icons\steve_jobs.png" />
     <None Remove="Icons\video_camera.png" />
     <None Remove="MVMM\Model\steve_jobs.jpg" />
     <None Remove="MVMM\viewmodel\steve_jobs.jpg" />
@@ -39,6 +40,7 @@
     <Resource Include="Icons\sent.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Icons\steve_jobs.png" />
     <Resource Include="Icons\video_camera.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
